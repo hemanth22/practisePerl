@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Perl
 
 # Controls when the workflow will run
 on:
@@ -27,5 +27,5 @@ jobs:
       uses: shogo82148/actions-setup-perl@v1
       with:
         perl-version: '5.30'
-    - name: perl -V
+    - name: perl Version
       run: perl -V
