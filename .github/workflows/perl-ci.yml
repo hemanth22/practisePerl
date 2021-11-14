@@ -29,3 +29,6 @@ jobs:
         perl-version: '5.30'
     - name: perl Version
       run: perl -V
+
+    - name: Execute perl program
+      run: perl hello.pl
